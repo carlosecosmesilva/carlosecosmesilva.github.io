@@ -1,14 +1,14 @@
-# Portifolio
+### O Portfólio
 
-<h3><p>Esse projeto é onde inicia minha caminhada como desenvolvedor de sites, onde ponho em prática o que estudei e consegui concluir.</p></h3>
-<h3><p>O projeto mostra minhas habilidades que estão sendo desenvolvidas com HTML e CSS, e também é meu currículo virtual para acesso, onde é possivel identificar meu perfil atual,
-com o que trabalho atualmente, e informações como emails e redes sociais</p></h3>
+- No portfólio busco mostrar os projetos que desenvolvo e expor as habilidades que tenho com JavaScript, HTML e CSS.
+- Também possuo habilidades com .NET que estão em pequenos projetos dentro de meu perfil.
 
-<p><h5>Ao acessar lembre-se que esse projeto está em constante atualização e que sempre pode ter modificações.</p><h5>
+#### Objetivo do Portfólio
 
-<h2>Description in English</h2>
-<h3> <p> This project is where I start my journey as a website developer, where I put into practice what I studied and managed to complete. </p> </h3>
-<h3> <p> The project shows my skills that are being developed with HTML and CSS, and it is also my virtual curriculum for access, where it is possible to identify my current profile,
-what I currently work with, and information like emails and social networks </p> </h3>
+- No mesmo busco mostrar que estou sempre indo atrás da constante evolução para sempre mostrar que estou sempre pronto e aberto para novas oportunidades e desafios.
 
-<p> <h5> When accessing, remember that this project is constantly updated and that it can always be modified. </p> <h5>
+#### Atualizações
+
+- Sim o projeto vai receber atualizações, logo mais estarei postando dentro dele desafios que conclui utilizando React entre outras ferramentas.
+- Ainda sobre atualização, logo mais modificarei o projeto para que seja totalmente em React, estou estudando para evoluir mais meu código e fazer isso.
+
