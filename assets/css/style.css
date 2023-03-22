@@ -8,7 +8,7 @@
     --header-height: 3rem;
     /* ================ COLORS ================ */
     /* CHANGE FAVORITE COLOR */
-    --hue-color: 207;
+    --hue-color: 157;
     /* Hsl Color */
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -55,7 +55,7 @@
 /* Font size for large devices */
 
 @media screen and (min-width: 968px) {
-     :root {
+    :root {
         --big-font-size: 3rem;
         --h1-font-size: 2.25rem;
         --h2-font-size: 1.5rem;
@@ -65,7 +65,6 @@
         --smaller-font-size: .813rem;
     }
 }
-
 
 /* ================ Variables Dark theme ================ */
 
@@ -98,7 +97,6 @@ body.dark-theme {
 .change-theme:hover {
     color: var(--first-color);
 }
-
 
 /* ================ BASE ================ */
 
@@ -141,7 +139,6 @@ img {
     height: auto;
 }
 
-
 /* ================ REUSABLE CSS CLASSES ================ */
 
 .section {
@@ -162,7 +159,6 @@ img {
 .section__subtitle {
     text-align: center;
 }
-
 
 /* ================ LAYOUT ================ */
 
@@ -185,7 +181,6 @@ img {
     z-index: var(--z-fixed);
     background-color: var(--body-color);
 }
-
 
 /* ================ NAV ================ */
 
@@ -279,13 +274,11 @@ img {
     color: var(--first-color);
 }
 
-
 /* Change background header */
 
 .scroll-header {
     box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
 }
-
 
 /* ================ HOME ================ */
 
@@ -340,10 +333,12 @@ img {
 }
 
 @keyframes blink {
+
     0%,
     100% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
@@ -589,7 +584,6 @@ img {
 .skills__open .skills__arrow {
     transform: rotate(-180deg);
 }
-
 
 /* ================ QUALIFICAÇÕES================ */
 
@@ -995,34 +989,44 @@ img {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
+
     .nav__menu {
         padding: 2rem .25rem 4rem;
     }
+
     .nav__list {
         column-gap: 0;
     }
+
     .home__content {
         grid-template-columns: .25fr 3fr;
     }
+
     .home__blob {
         width: 180px;
     }
+
     .skills__title {
         font-size: var(--normal-font-size);
     }
+
     .qualification__data {
         gap: .5rem;
     }
+
     .services__container {
         grid-template-columns: max-content;
         justify-content: center;
     }
+
     .services__content {
         padding-right: 3.5rem;
     }
+
     .services__modal {
         padding: 0 .5rem;
     }
+
     .project__img {
         width: 200px;
     }
@@ -1035,13 +1039,16 @@ img {
     .home__content {
         grid-template-columns: max-content 1fr 1fr;
     }
+
     .home__data {
         grid-column: initial;
     }
+
     .home__img {
         order: 1;
         justify-self: center;
     }
+
     .about__container,
     .skills__container,
     .portfolio__content,
@@ -1050,6 +1057,7 @@ img {
     .footer__container {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .qualification__sections {
         display: grid;
         grid-template-columns: .6fr;
@@ -1062,113 +1070,146 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
+
     body {
         margin: 0;
     }
+
     .section {
         padding: 6rem 0 2rem;
     }
+
     .section__subtitle {
         margin-bottom: 4rem;
     }
+
     .header {
         top: 0;
         bottom: initial;
     }
+
     .header,
     .main,
     .footer__container {
         padding: 0 1rem;
     }
+
     .nav {
         height: calc(var(--header-height) + 1.5rem);
         column-gap: 1rem;
     }
+
     .nav__icon,
     .nav__close,
     .nav__toggle {
         display: none;
     }
+
     .nav__list {
         display: flex;
         column-gap: 2rem;
     }
+
     .nav__menu {
         margin-left: auto;
     }
+
     .change-theme {
         margin: 0;
     }
+
     .home__container {
         row-gap: 5rem;
     }
+
     .home__content {
         padding-top: 5.5rem;
         column-gap: 2rem;
     }
+
     .home__blob {
         width: 270px;
     }
+
     .home__scroll {
         display: block;
     }
+
     .home__scroll-button {
         margin-left: 3rem;
     }
+
     .about__container {
         column-gap: 5rem;
         ;
     }
+
     .about__img {
         width: 350px;
     }
+
     .about__description {
         text-align: initial;
     }
+
     .about__buttons {
         justify-content: center;
     }
+
     .qualification__tabs {
         justify-content: center;
     }
+
     .qualification__button {
         margin: 0 var(--mb-1);
     }
+
     .qualification__sections {
         grid-template-columns: .5fr;
     }
+
     .services__container {
         grid-template-columns: repeat(3, 218px);
         justify-content: center;
     }
+
     .services__icon {
         font-size: 2rem;
     }
+
     .services__content {
         padding: 6rem 0 2rem 2.5rem;
     }
+
     .services__modal-content {
         width: 450px;
     }
+
     .portfolio__img {
         width: 320px;
     }
+
     .portfolio__container {
         align-items: center;
     }
+
     .footer__container {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .footer__bg {
         padding: 3rem 0 3.5rem;
     }
+
     .footer__links {
         flex-direction: row;
         column-gap: 2rem;
     }
+
     .footer__socials {
         justify-self: flex-end;
     }
+
     .footer__copy {
         margin-top: 4.5rem;
     }
@@ -1178,41 +1219,53 @@ img {
 /* Para dispositivos  largos */
 
 @media screen and (min-width: 1024px) {
+
     .header,
     .main,
     .footer__container {
         padding: 0;
     }
+
     .skills__container {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .home__blob {
         width: 320px;
     }
+
     .home__social {
         transform: translateX(-6rem);
     }
+
     .services__container {
         grid-template-columns: repeat(2, 300px);
     }
+
     .portfolio__content {
         column-gap: 5rem;
     }
+
     .swiper-portfolio-icon {
         font-size: 3.5rem;
     }
+
     .swiper-button-prev {
         left: -3.5rem;
     }
+
     .swiper-button-next {
         right: -3.5rem;
     }
+
     .swiper-container-horizontal>.swiper-pagination-bullets {
         bottom: -4.5rem;
     }
+
     .contact__form {
         width: 460px;
     }
+
     .contact__inputs {
         grid-template-columns: repeat(2, 1fr);
     }
