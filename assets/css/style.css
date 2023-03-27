@@ -7,8 +7,8 @@
 :root {
     --header-height: 3rem;
     /* ================ COLORS ================ */
-    /* CHANGE FAVORITE COLOR */
-    --hue-color: 157;
+    /* Principal color */
+    --hue-color: 197;
     /* Hsl Color */
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
